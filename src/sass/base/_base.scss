@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this difine what 1 rem is (by default 1 rem is 16px so here we try to have 1 rem = 10 px
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+  box-sizing: border-box;
+}
