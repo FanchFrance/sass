@@ -1,6 +1,6 @@
 .row {
   max-width: $grid-max-width;
- 
+
   margin: 0 auto;
   margin-bottom: $gutter-vertical;
   &:last-child {
@@ -9,7 +9,6 @@
   @include clearfix;
 
   [class^="col-"] {
-     
     float: left;
     // toute les colonnes sauf la derniere
     &:not(:last-child) {
