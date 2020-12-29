@@ -135,6 +135,11 @@ function App() {
               most weird trips
             </h2>
           </div>
+          <div className="row">
+          <div className="col-1-of-3">Col 1 of 3</div>
+          <div className="col-1-of-3">Col 1 of 3</div>
+          <div className="col-1-of-3">Col 1 of 3</div>
+        </div>
         </section>
       </main>
 
