@@ -131,15 +131,42 @@ function App() {
         </section>
         <section className="section-tours">
           <div className="u-center-text u-margin-bottom-big">
-            <h2 className="heading-secondary">
-              most weird trips
-            </h2>
+            <h2 className="heading-secondary">most weird trips</h2>
           </div>
           <div className="row">
-          <div className="col-1-of-3">Col 1 of 3</div>
-          <div className="col-1-of-3">Col 1 of 3</div>
-          <div className="col-1-of-3">Col 1 of 3</div>
-        </div>
+            <div className="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front card__side--front-1">
+                  <div className="card__picture">&nbsp;</div>
+                  <div className="card__heading">details</div>
+                  <div className="card__details">heading</div>
+                </div>
+                <div className="card__side card__side--back card__side--back-1">
+                  BACK
+                </div>
+              </div>
+            </div>
+            <div className="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front card__side--front-2">
+                  FRONT
+                </div>
+                <div className="card__side card__side--back card__side--back-2">
+                  BACK
+                </div>
+              </div>
+            </div>
+            <div className="col-1-of-3">
+              <div className="card">
+                <div className="card__side card__side--front card__side--front-3">
+                  FRONT
+                </div>
+                <div className="card__side card__side--back card__side--back-3">
+                  BACK
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
