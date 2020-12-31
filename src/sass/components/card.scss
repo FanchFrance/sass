@@ -2,20 +2,19 @@
   perspective: 100rem;
   -moz-perspective: 100rem;
   position: relative;
-  height: 50rem;
+  height: 40rem;
 
   &__side {
-    color: #fff;
-    font-size: 2rem;
-    height: 50rem;
-    transition: all .9s ease;
+    height: 40rem;
+    transition: all 0.9s ease;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-		border-radius: 3px;
-		box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
     &--front {
       background-color: $color-white;
@@ -56,5 +55,88 @@
   }
   &:hover &__side--back {
     transform: rotateX(0);
+  }
+
+  &__picture {
+    background-size: cover;
+    background-blend-mode: darken;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+
+    filter: blur(0.7px);
+    &--1 {
+      background-image: url(../../img/zeus_with_babies.jpeg),
+        radial-gradient(circle at 2rem 22rem, transparent 2rem, #fb0505 22rem);
+      height: 21rem;
+    }
+    &--2 {
+      background-image: url(../../img/ginger_back.jpeg),
+        radial-gradient(circle at 2rem 22rem, transparent 2rem, #3c5f5d 22rem);
+      height: 22rem;
+    }
+    &--3 {
+      background-image: url(../../img/grandmas_and_girls.jpeg),
+        radial-gradient(circle at 2rem 22rem, transparent 2rem, #ffd400 22rem);
+      height: 23rem;
+    }
+  }
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-white;
+    
+  }
+
+  &__heading--span {
+    &-1 {
+      position: absolute;
+      padding: 0.1rem;
+      top: 15rem;
+      right: 2rem;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.25),
+        rgba($color-secondary-dark, 0.85)
+      );
+    }
+    &-2 {
+      position: absolute;
+      padding: 0.1rem;
+      top: 16rem;
+      right: 2rem;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.25),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+    &-3 {
+      position: absolute;
+      text-transform:initial;
+      padding: 0.1rem;
+      top: 17rem;
+      right: 2rem;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.25),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
+  }
+  &__details {
+    ul{
+      list-style: none;
+        width: 80%;
+      li{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+      &:not(:last-child){
+        border-bottom: 1px solid $color-grey-light-1;
+      }
+    }
   }
 }

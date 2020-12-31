@@ -20,13 +20,13 @@ function App() {
         </div>
         <div className="header__text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">Bretagne</span>
+            <span className="heading-primary--main">François Yhuel</span>
             <span className="heading-primary--sub">
-              la cote bretonne vu par des cons
+              développeur full stack en devenir
             </span>
           </h1>
           <a href="#section-tours" className="btn btn--white btn--animated">
-            Discover our tours
+            voir mes compétences
           </a>
         </div>
       </header>
@@ -34,14 +34,13 @@ function App() {
       <main>
         <section className="section-about">
           <div className="u-center-text u-margin-bottom-big">
-            <h2 className="heading-secondary">
-              exciting tour for adventurus people
-            </h2>
+            <h2 className="heading-secondary">Mon parcours jusqu'à présent</h2>
           </div>
           <div className="row">
             <div className="col-1-of-2">
               <h3 className="heading-tertiary u-margin-bottom-small">
-                you're going to fall in love with me !
+                Mon parcours soignant en qualité de faisant fonction aide
+                soignant puis infirmier
               </h3>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -50,7 +49,8 @@ function App() {
                 reiciendis, voluptatem assumenda?
               </p>
               <h3 className="heading-tertiary u-margin-bottom-small">
-                Have fun with me like you've never had before
+                Mon parcours digital en tant que développeur web front end et
+                back end
               </h3>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -137,9 +137,19 @@ function App() {
             <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front card__side--front-1">
-                  <div className="card__picture">&nbsp;</div>
-                  <div className="card__heading">details</div>
-                  <div className="card__details">heading</div>
+                  <div className="card__picture card__picture--1">&nbsp;</div>
+
+                  <h4 className="card__heading">
+                    <span className="card__heading--span card__heading--span-1">
+                      React / redux
+                    </span>
+                  </h4>
+                  <div className="card__details">
+                   <ul className="">
+                    <li className="">Wild Code School</li>
+                      <li className="">Tricky</li>
+                      </ul>
+                  </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-1">
                   BACK
@@ -149,7 +159,18 @@ function App() {
             <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front card__side--front-2">
-                  FRONT
+                  <div className="card__picture card__picture--2">&nbsp;</div>
+                  <div className="card__heading">
+                    <span className="card__heading--span card__heading--span-2">
+                      CSS / SASS
+                    </span>
+                  </div>
+                  <div className="card__details">
+                    <ul className="">
+                      <li className="">Wild Code School</li>
+                      <li className="">Tricky</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-2">
                   BACK
@@ -159,7 +180,18 @@ function App() {
             <div className="col-1-of-3">
               <div className="card">
                 <div className="card__side card__side--front card__side--front-3">
-                  FRONT
+                  <div className="card__picture card__picture--3">&nbsp;</div>
+                  <div className="card__heading">
+                    <span className="card__heading--span card__heading--span-3">
+                      nodeJS
+                    </span>
+                  </div>
+                  <div className="card__details">
+                  <ul className="">
+                    <li className="">Wild Code School</li>
+                      <li className="">Tricky</li>
+                      </ul>
+                  </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-3">
                   BACK

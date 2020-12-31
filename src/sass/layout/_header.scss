@@ -1,5 +1,5 @@
 .header {
-  height: 95vh;
+  height: 125vh;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.6),
@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: top 70% left 50%;
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
   &__logo-box {
