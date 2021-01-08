@@ -20,9 +20,12 @@ function App() {
         </div>
         <div className="header__text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">François Yhuel</span>
+            <span className="heading-primary--main">
+              La grande traversée européenne nord-sud du tourisme durable
+            </span>
             <span className="heading-primary--sub">
-              développeur full stack en devenir
+              projet de développement du nouveau slow tourisme par la
+              valorisation d'une culture commune européenne
             </span>
           </h1>
           <a href="#section-tours" className="btn btn--white btn--animated">
@@ -34,23 +37,69 @@ function App() {
       <main>
         <section className="section-about">
           <div className="u-center-text u-margin-bottom-big">
-            <h2 className="heading-secondary">Mon parcours jusqu'à présent</h2>
+            <h2 className="heading-secondary">Editorial</h2>
           </div>
           <div className="row">
             <div className="col-1-of-2">
               <h3 className="heading-tertiary u-margin-bottom-small">
-                Mon parcours soignant en qualité de faisant fonction aide
-                soignant puis infirmier
+                La grande traversée européenne nord-sud du tourisme durable
               </h3>
               <p className="paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident asperiores debitis in minima ex nemo, modi fugiat
-                cupiditate est tempore ab id quos dolor nisi, sapiente ullam
-                reiciendis, voluptatem assumenda?
+                J'ai toujours été plus proche de ce qui unit que de ce qui
+                divise. J'ai construit une route Charlemagne pour unifier et
+                féderer les peuples européens à partir de leur culture commune
+                que l'on retrouve à partir de l'époque Carolingienne et des
+                légendes qu'elle a produite dans toute les créations
+                artistiques.
+              </p>
+              <p className="paragraph">
+                J'ai matérialisé cette convergenace, cette collaboration sous un
+                angle géographique, après avoir constaté que 8 routes
+                Européennes culturelles et sportives avaient un trajet
+                paralléle, convergeantr, alors qu'elles utilisaient souvent un
+                moyen de locomotion différent et complémentaire.
+              </p>
+              <p className="paragraph">
+                J'ai trouvé qu'il y avait matière en nous regroupant, à créér
+                des services communs qui correspondent aux besoins primaires des
+                randonneursquand ils se déplacent, c'est à dire ou manger, ou
+                dormir, ou boire, ou trouver de l'ombre, ou réparer son vélo, ou
+                soigner son cheval, etc.
+              </p>
+              <p className="paragraph">
+                Mais l'Homme a aussi des besoins ou des désir d'appartenanc, des
+                besoins d'estime de soin et d'accomplisssement. il s'enrichit
+                par la Culture, marques sa satisfaction auprès des guides
+                culturels chaque fois qu'il a pu bénéficier d'une visite.
+              </p>
+              <p className="paragraph">
+                Le tourisme vert et durablepermet de diffuser aux randonneurs ou
+                aux simples visiteurs la connaissance de leur histoire commune
+                en marchant dans les traces du père de l'ERurope: Charlemagne,
+                de ses épopées commes "les chansons de gestes", celle de Roland,
+                celle de Renaud, du cheval Bayart, des légendes de Bretagnes
+                avec Arthur, Lancelot, de Galaad, de la fée Morgane, de la reine
+                Guenièvre, de l'enchanteur Merlin, des 9 Preux et des 9 Preuses.
+              </p>
+              <p className="paragraph">
+                De suivre les aventures des 3 Mousquetaires qui renopuvelenbt le
+                genre du romantisme et sont si emblématique de la construction
+                européene part la devise "Un pour tous et tous pour un" qui
+                semble avoir été écrite pour une équipe de Rugby. Les chemins de
+                Saint Jacques de Compostelle et les multiples routes d'Eurovélo
+                irriguent aussi largement les campagnes de toutes l'Europe.
+              </p>
+              <p className="paragraph">
+                Toutes ces routes participent grandement à la diffusion de
+                l'Esprit Européen, c'est pourquoi, j'ai proposé aux responsables
+                de ces routes de nous regrouper afin de proposer à la commission
+                européene ces aménagement communs pour découvrir l'Europe tout
+                en préservant le plus possible son patrimoine et sa
+                biodiversité.
               </p>
               <h3 className="heading-tertiary u-margin-bottom-small">
-                Mon parcours digital en tant que développeur web front end et
-                back end
+                Noël Orsat, coordonateur et fondateur du regroupement des
+                acteurs de la Grande Traversée.
               </h3>
               <p className="paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -145,14 +194,22 @@ function App() {
                     </span>
                   </h4>
                   <div className="card__details">
-                   <ul className="">
-                    <li className="">Wild Code School</li>
+                    <ul className="">
+                      <li className="">Wild Code School</li>
                       <li className="">Tricky</li>
-                      </ul>
+                    </ul>
                   </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-1">
-                  BACK
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">270$</p>
+                    </div>
+                    <a href="#" className="btn btn--white">
+                      book now
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -173,7 +230,15 @@ function App() {
                   </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-2">
-                  BACK
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">270$</p>
+                    </div>
+                    <a href="#" className="btn btn--white">
+                      book now
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -187,14 +252,22 @@ function App() {
                     </span>
                   </div>
                   <div className="card__details">
-                  <ul className="">
-                    <li className="">Wild Code School</li>
+                    <ul className="">
+                      <li className="">Wild Code School</li>
                       <li className="">Tricky</li>
-                      </ul>
+                    </ul>
                   </div>
                 </div>
                 <div className="card__side card__side--back card__side--back-3">
-                  BACK
+                  <div className="card__cta">
+                    <div className="card__price-box">
+                      <p className="card__price-only">Only</p>
+                      <p className="card__price-value">270$</p>
+                    </div>
+                    <a href="#" className="btn btn--white">
+                      book now
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
